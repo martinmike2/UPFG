@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Google.Protobuf" Version="3.11.1" />
+		<PackageReference Include="KRPC.Client" Version="0.4.8" />
+		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="missions\**\*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+</Project>
