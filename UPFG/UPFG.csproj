@@ -8,7 +8,7 @@
 	<ItemGroup>
 		<PackageReference Include="Google.Protobuf" Version="3.11.1" />
 		<PackageReference Include="KRPC.Client" Version="0.4.8" />
-		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
 	</ItemGroup>
 	<ItemGroup>
 		<Content Include="missions\**\*">
